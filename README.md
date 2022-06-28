@@ -1,2 +1,3 @@
-# projectAmazinBank
- A concept landing page for 
+# Amazing Bank
+
+A landing page concept for a bank.
