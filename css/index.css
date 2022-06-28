@@ -1,8 +1,18 @@
 @import url(/css/style.css);
 
+
+
 .hero {
-    background-color: var(--defaut-blue);
+    background: linear-gradient(45deg, #286DB8, #114189);
     height: 100vh;
+}
+
+.hero-cont {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    row-gap: 40%;
 }
 
 nav {
@@ -23,12 +33,18 @@ nav ul {
     list-style: none;
 }
 
-nav li {
+nav li, a {
     display: inline-block;
     color: white;
     font-size: 1rem;
     font-weight: 400;
-    padding: .5rem 1rem;
+    padding: .3rem 1rem;
+    border-radius: 2rem;
+    transition: all ease-in-out 100ms;
+}
+
+nav > ul > a:hover {
+    background-color: var(--dark-blue);
 }
 
 .hero-cont {
@@ -51,7 +67,6 @@ nav li {
 }
 
 .button-white {
-    width: 15rem;
     background-color: white;
     font-weight: 600;
     color: var(--dark-blue);
@@ -64,13 +79,14 @@ nav li {
 }
 
 .button-white:hover {
-    background-color: var(--yellow);
+    background-color: var(--dark-blue);
     color: white;
 }
 
 .button-text {
     color: var(--light-blue);
     text-decoration: none;
+    font-weight: 300;
     padding: .5rem 1rem;
     display: inline-block;
     transition: all ease-in-out 100ms;
@@ -79,4 +95,123 @@ nav li {
 .button-text:hover {
     text-decoration: underline;
     color: white;
+}
+
+.sub-hero {
+    background-color: var(--black);
+    color: white;
+    padding: 5rem 0rem;
+    text-align: center;
+}
+
+.sub-hero h1 {
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+    line-height: 100%;
+}
+
+.sub-hero p {
+    color: var(--grey);
+}
+
+.card-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+    width: 100%;
+}
+
+.card-images img {
+    object-fit: contain;
+    width: 33%;
+    height: auto;
+    filter: grayscale(1);
+    transition: all ease-in-out 200ms;
+}
+
+.card-images img:hover {
+    filter: grayscale(0);
+    transform: translateY(-2rem);
+}
+
+.pix {
+    margin: 5rem 0rem;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pix div {
+    width: 50%;
+}
+
+.pix img {
+    width: 70%;
+}
+
+.button-yellow {
+    background-color: var(--yellow);
+    font-weight: 600;
+    color: var(--black);
+    text-decoration: none;
+    text-align: center;
+    padding: .75rem 2rem;
+    display: inline-block;
+    border-radius: 2rem;
+    transition: all ease-in-out 100ms;
+}
+
+.button-yellow:hover {
+    background-color: rgb(10, 10, 10);
+    color: var(--yellow);
+}
+
+.button {
+    background-color: var(--default-blue);
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: .75rem 2rem;
+    margin: 1rem 0rem;
+    display: inline-block;
+    border-radius: 2rem;
+    transition: all ease-in-out 100ms;
+}
+
+.button:hover {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+}
+
+.hero-3 {
+    padding: 5rem 0rem;
+}
+
+.hero-3 h1 {
+    font-size: 2.75rem;
+    letter-spacing: -.1rem;
+    line-height: 100%;
+}
+
+.hero-3 h3 {
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.dig-pay {
+    display: flex;
+    margin-bottom: 5rem
+}
+
+.dig-pay div {
+    width: 50%;
+    gap: 1rem;
+}
+
+.fa-brands {
+    font-size: 4rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    color: var(--grey);
 }
