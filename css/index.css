@@ -1,0 +1,82 @@
+@import url(/css/style.css);
+
+.hero {
+    background-color: var(--defaut-blue);
+    height: 100vh;
+}
+
+nav {
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    background: url(/assets/logo_white.svg) no-repeat center;
+    background-size: contain;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .5rem 1rem;
+}
+
+.hero-cont {
+    display: flex;
+    color: white;
+}
+
+.hero-cont h1 {
+    font-size: 2.375rem;
+    line-height: 110%;
+    letter-spacing: -.094rem;
+    margin-top: 3rem;
+}
+
+.hero-cont h3 {
+    font-weight: 300;
+    color: var(--light-blue);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.button-white {
+    width: 15rem;
+    background-color: white;
+    font-weight: 600;
+    color: var(--dark-blue);
+    text-decoration: none;
+    text-align: center;
+    padding: .75rem 2rem;
+    display: inline-block;
+    border-radius: 2rem;
+    transition: all ease-in-out 100ms;
+}
+
+.button-white:hover {
+    background-color: var(--yellow);
+    color: white;
+}
+
+.button-text {
+    color: var(--light-blue);
+    text-decoration: none;
+    padding: .5rem 1rem;
+    display: inline-block;
+    transition: all ease-in-out 100ms;
+}
+
+.button-text:hover {
+    text-decoration: underline;
+    color: white;
+}
