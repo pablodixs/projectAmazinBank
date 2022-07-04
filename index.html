@@ -10,75 +10,66 @@
 </head>
 
 <body>
-    <section class="hero">
-        <div class="container hero-cont">
-            <nav>
-                <div class="logo"></div>
+    <div class="topbar">
+        <div class="container">
+            <nav class="nav">
                 <ul>
-                    <a href="#">
-                        <li>Para você</li>
-                    </a>
-                    <a href="#">
-                        <li>Para sua empresa</li>
-                    </a>
-                    <a href="#">
-                        <li>Para o seu futuro</li>
-                    </a>
+                    <a class="topbar-selected" href="#"><li>Para você</li></a>
+                    <a href="#"><li>Para sua empresa</li></a>
                 </ul>
-                <a href="#" class="button-white">Entrar</a>
             </nav>
-            <div class="hero-cont">
-                <div>
-                    <h1>Com a Amazing Bank é assim:<br> você no controle do seu dinheiro</h1>
-                    <h3>É cartão de crédito, Pix, empréstimo ou investimentos que você precisa?<br> Abra sua conta
-                        digital agora </h3>
-                    <a class="button-white" href="#">Abrir conta</a>
-                    <a class="button-text" href="#">Saiba mais</a>
+        </div>
+    </div>
+
+    <section class="hero">
+            <div class="navbar">
+                <div class="logo"></div>
+                <nav>
+                    <ul>
+                        <a href=""><li>Prime</li></a>
+                        <a href=""><li>Exclusive</li></a>
+                        <a href=""><li>Cartões</li></a>
+                        <a href=""><li>Investimentos</li></a>
+                        <a href=""><li>Atendimento</li></a>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="hero-text">
+                <h1>O futuro do seu <br>dinheiro na palma <br>das suas mãos</h1>
+                <p>Sua relação com o dinheiro está prestes a se revolucionar.</p>
+                <div class="buttons">
+                    <a class="button" href="#">Quero fazer parte dessa revolução</a>
+                    <a class="text-button" href="#">Saiba mais</a>
                 </div>
+            </div>
+
+            <div class="hero-submit">
+                <div class="form">
+                    <div class="heading-form">
+                        <h2>Peça seu cartão <br> e sua conta</h2>
+                        <img width="32px" height="47px" src="/assets/card-icon.svg" alt="">
+                    </div>
+                    <input oninput="mascara(this)" type="text" placeholder="Digite seu CPF">
+                    <div class="foot-submit">
+                        <p>Ao continuar você concorda com os <br><a href="#">Termos de Uso</a> e a <a href="#">Política de Privacidade</a>.</p>
+                        <button type="submit" disabled="disabled"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="sec-2">
+        <div class="container sec-2-flex">
+            <img src="/assets/cards.svg" alt="">
+            <div class="flex-left">
+                <h3>Cartões de crédito</h3>
+                <h1>AAA</h1>
             </div>
         </div>
     </section>
-    <section class="sub-hero">
-        <div class="container">
-            <h1>Cartões de crédito que <br> se adaptam à sua rotina</h1>
-            <p>Do Gold até o Infinite. Escolha aquele que cabe no seu dia a dia. <br> Ah, e com todos eles você garante pontos e até 5% de cashback direto na sua fatura.*</p>
-            <div class="card-images">
-                <img src="/assets/card_regular.png" alt="">
-                <img src="/assets/card_prime.png" alt="">
-                <img src="/assets/card_exclusive.png" alt="">
-            </div>
-            <a href="#" class="button-yellow">Pedir agora &nbsp; <i class="fa-solid fa-angle-right"></i></a>
-            <a style="color: var(--grey);" href="#" class="button-text">Saiba mais</a>
-            <div class="pix">
-                <div>
-                    <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/03/Mockup-IPhone-PNG-Gr%C3%A1tis-677x1024.png" alt="">
-                </div>
-                <div>
-                <h1>Pix? É pra já!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla exercitationem officiis ea ipsa, necessitatibus deleniti magni harum unde natus. Provident, voluptatibus! Ex libero facere magni ratione odit voluptas cupiditate aliquid.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid perferendis eaque magni rem, nostrum recusandae excepturi sapiente amet velit reprehenderit doloremque, voluptates ea nisi, neque quam suscipit mollitia sequi repudiandae?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos fuga id cupiditate? Consequatur velit aliquid vel, molestiae suscipit inventore doloribus consectetur ipsa quaerat fuga laboriosam omnis. Totam nam dolores omnis?</p>
-                <div class="button-white">Conhecer mais</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <img width="100%" src="/assets/banner_applepay.png" alt="">
-    <section class="hero-3">
-        <div class="container">
-            <div class="dig-pay">
-                <div>
-                    <h1>Compatível com todas as carteiras virtuais. <br> Esquecer a carteira não é mais um problema.</h1>
-                </div>
-                <div>
-                    <i class="fa-brands fa-apple-pay"></i>
-                    <i class="fa-brands fa-google-pay"></i>
-                    <h3>Os cartões Amazing são compatíveis com as carteiras digitais Apple Pay, Google Pay e Samsung Pay.</h3>
-                    <div class="button">Saiba mais &nbsp; <i class="fa-solid fa-angle-right"></i></div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    <div class="light"></div>
+    <script src="/js/script.js"></script>
     <script src="https://kit.fontawesome.com/6d13cd2cef.js" crossorigin="anonymous"></script>
 </body>
 
