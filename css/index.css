@@ -255,18 +255,16 @@ p {
 }
 
 .sec-21-flex {
+    margin-top: 3rem;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
     flex-wrap: wrap;
-    gap: 1rem;
 }
 
 .sec-21-flex div{
     width: 22.5%;
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 0.625rem;
-    margin-top: 4.5rem;
     padding: 1.5rem;
 }
 
@@ -299,6 +297,7 @@ p {
     padding: 30px 0rem;
     margin-top: 6.25rem;
 }
+
 .business-cont {
     display: flex;
     align-items: center;

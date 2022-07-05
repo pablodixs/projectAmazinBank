@@ -82,4 +82,22 @@
         display: none;
     }
 
+    .sec-21-flex div{
+        width: 47.5%;
+        margin-top: 1rem;
+    }
+
+    .sec-2-flex {
+        flex-direction: column;
+    }
+
+    .flex-left h3, h1 {
+        text-align: center;
+    }
+
+    .business-cont {
+        flex-direction: column;
+    }
+
+
 }
