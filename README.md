@@ -2,6 +2,7 @@
 
 A landing page concept for a bank.
 - Not finished
+- [Pages of the project here](https://pablodixs.github.io/projectAmazingBank/)
 
 ## Screenshots
 <img width="1552" alt="Captura de Tela 2022-07-05 às 11 01 55" src="https://user-images.githubusercontent.com/90719668/177346475-7d3e0fb2-bfec-4905-a180-f7746f7c6f53.png">
