@@ -10,26 +10,36 @@
     --dark-grey: #444444;
     --red-pastel: #F5D9D1;
     --blue-pastel: #BDC1FA;
+    --dark-purple: #8487af;
+    --light-purple: #f1f2ff;
     --default-font: 'Gantari', sans-serif;
 }
 
-*, html {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    transition: all 50ms;
+    transition: all ease 100ms;
 }
 
 body {
-    font-family: var(--default-font);
     height: 100vh;
     width: 100%;
+    font-family: var(--default-font);
     background-color: var(--default-black);
 }
 
 h1 {
+    margin: 1rem 0rem;
+    letter-spacing: -0.0938rem;
     font-size: 3rem;
+    line-height: 90%;
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: -0.0625rem;
 }
 
 .container {
@@ -45,12 +55,30 @@ h1 {
     text-decoration: none;
     padding: 0.625rem 1.25rem;
     border-radius: 1.25rem;
+    margin-right: .5rem;
 }
 
 .button:hover {
     background-color: transparent;
     color: white;
     outline: 2px solid white;
+}
+
+.dark-button {
+    display: inline-block;
+    background-color: var(--dark-purple);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.625rem 1.25rem;
+    border-radius: 1.25rem;
+    margin-right: .5rem;
+}
+
+.dark-button:hover {
+    background-color: transparent;
+    color: var(--dark-purple);
+    outline: 2px solid var(--dark-purple);
 }
 
 .text-button {
@@ -61,4 +89,16 @@ h1 {
 .text-button:hover {
     color: var(--light-grey);
     text-decoration: underline;
+}
+
+.button-text-dark {
+    color: var(--dark-purple);
+    text-decoration: none;
+    padding: 0.625rem 1.25rem;
+    border-radius: 1.25rem;
+}
+
+.button-text-dark:hover {
+    color: var(--default-black);
+    background-color: var(--light-purple);
 }
