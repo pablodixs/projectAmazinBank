@@ -8,6 +8,10 @@
         text-align: center;
     }
 
+    h1, h2, h3 {
+        text-align: center;
+    }
+
     .topbar {
         display: none;
     }
@@ -84,17 +88,22 @@
 
     .sec-21-flex div{
         width: 47.5%;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 
     .sec-2-flex {
         flex-direction: column;
+        gap: 1.2rem;
     }
 
-    .flex-left h3, h1 {
-        text-align: center;
+    .sec-2-flex img {
+        width: 200px;
     }
 
+    .box h2{
+        text-align: left;
+    }
+    
     .business-cont {
         flex-direction: column;
     }
