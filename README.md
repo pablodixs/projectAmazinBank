@@ -3,11 +3,11 @@
 A landing page concept for a bank.
 
 ## Some screenshots of the project
+<img width="1552" alt="Captura de Tela 2022-07-05 às 11 01 55" src="https://user-images.githubusercontent.com/90719668/177346475-7d3e0fb2-bfec-4905-a180-f7746f7c6f53.png">
 
-![Captura de Tela 2022-06-27 às 23 25 18](https://user-images.githubusercontent.com/90719668/176078275-3dd2e6b6-9c39-4fe9-9632-cfe2c91d0173.png)
 
-![Captura de Tela 2022-06-27 às 23 25 26](https://user-images.githubusercontent.com/90719668/176078303-cd838280-b083-42ac-9ead-9ea563a66363.png)
 
-![Captura de Tela 2022-06-27 às 23 25 31](https://user-images.githubusercontent.com/90719668/176078334-00f53a53-4dd5-4e65-837b-2babe18f9f90.png)
+
+![pablodixs github io_projectAmazingBank_](https://user-images.githubusercontent.com/90719668/177346532-413af95d-a3d8-4acc-a0c3-5c6a91af371c.png)
 
 That's all for today ;)
