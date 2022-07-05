@@ -1,4 +1,5 @@
-@import url(css/style.css);
+@import url(style.css);
+@import url(responsive.css);
 
 p {
     margin: 1rem 0rem;
@@ -48,6 +49,7 @@ p {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 6.25rem 2fr 3.125rem;
 }
+
 .navbar {
     width: 100%;
     grid-area: nav;

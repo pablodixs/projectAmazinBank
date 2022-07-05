@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gantari:wght@400;500;600;700;800;900&display=swap');
-@import url(css/index.css);
+@import url(index.css);
+@import url(responsive.css);
 
 :root {
     --default-black: #0F0F0F;
@@ -102,3 +103,4 @@ h2 {
     color: var(--default-black);
     background-color: var(--light-purple);
 }
+
