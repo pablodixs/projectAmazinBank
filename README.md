@@ -2,6 +2,7 @@
 
 A landing page concept for a bank.
 - Not finished
+- Responsive on desktop and phone
 - [Pages of the project here](https://pablodixs.github.io/projectAmazingBank/)
 
 ## Screenshots
