@@ -278,17 +278,14 @@ p {
 
 .box h2 {
     font-size: 1.2rem;
-    color: var(--dark-grey);
+    color: var(--alt-black);
     letter-spacing: -0.0313rem;
     font-weight: 500;
 }
 
 .box img {
-    width: 2.5rem;
-}
-
-.fa-apple-pay {
-    font-size: 60px !important;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .business {
@@ -337,7 +334,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3.125rem;
+    padding: 3.125rem 0rem;
     text-align: center;
 }
 
@@ -350,7 +347,61 @@ p {
 }
 
 .sec-4 h1 {
-    color: var(--red-pastel);
+    color: white;
+}
+
+.pair-logo {
+    display: flex;
+    gap: 6.25rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pair-logo img {
+    margin: 3.125rem 0rem;
+    width: 6.25rem;
+    opacity: .5;
+}
+
+.pair-logo img:hover {
+    opacity: 1;
+}
+
+.box-select {
+    position: relative;
+}
+
+.box-select a {
+    color: var(--grey);
+    text-decoration: none;
+}
+
+.box-select a:hover {
+    color: var(--default-black);
+}
+
+.box-select span {
+    right: 0;
+    top: 0;
+    margin: .5rem;
+    background-color: var(--red-pastel);
+    border-radius: 3px;
+    padding: .2rem .7rem;
+    position: absolute;
+    font-weight: 700;
+}
+
+.box-select:hover {
+    transform: translateY(-0.625rem);
+    box-shadow: 0px 0.625rem 1.5625rem rgba(0, 0, 0, 0.1);
+}
+
+.observacoes p {
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
 }
 
 footer {
@@ -405,6 +456,12 @@ footer {
 
 .menu-footer li {
     margin: .5rem 0rem;
+}
+
+.menu-footer li > span {
+    color: var(--blue-pastel);
+    font-weight: 600;
+    margin-left: .5rem;
 }
 
 .menu-footer a, .footer-link {
