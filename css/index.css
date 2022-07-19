@@ -6,19 +6,6 @@ p {
     color: var(--grey);
 }
 
-#dark-logo {
-    background: url("../assets/logo-dark.svg");
-}
-
-#dark-nav a {
-    color: var(--alt-black) ;
-}
-
-#dark-nav a:hover {
-    background-color: var(--default-black);
-    color: white;
-}
-
 .nav {
     width: 1200px;
 }
@@ -61,31 +48,6 @@ p {
     grid-template-areas: "nav nav" "ht hs" "sc sc";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 6.25rem 2fr 3.125rem;
-}
-
-.navbar {
-    grid-area: nav;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar li {
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-}
-
-.navbar a {
-    color: var(--medium-grey);
-    padding: .5rem 1.5rem;
-    font-weight: 400;
-    border-radius: 1.25rem;
-}
-
-.navbar a:hover {
-    background-color: white;
-    color: var(--default-black);
 }
 
 .logo {

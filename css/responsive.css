@@ -1,9 +1,7 @@
 @import url(style.css);
 @import url(index.css);
 
-
 @media (max-width: 1200px) {
-
     .foot-submit p {
         width: 80%;
         font-size: 12px;
@@ -12,12 +10,12 @@
     .container {
         max-width: 800px;
     }
-    
+
     .hero {
         max-width: 800px;
         height: 100vh;
         display: grid;
-        grid-template-areas: "nav nav" "ht hs" "sc sc";
+        grid-template-areas: "nav nav""ht hs""sc sc";
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 5rem 1fr 1.25rem;
     }
@@ -45,14 +43,14 @@
     }
 }
 
-
 @media (max-width: 420px) {
-
     p {
         text-align: center;
-    }   
+    }
 
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
         text-align: center;
     }
 
@@ -64,15 +62,19 @@
         max-width: 350px;
         margin: auto;
     }
-    
+
     .hero {
         max-width: 350px;
         height: 100vh;
         color: white;
         display: grid;
-        grid-template-areas: "nav" "ht" "hs" "sc";
+        grid-template-areas: "nav""ht""hs""sc";
         grid-template-columns: 100%;
         grid-template-rows: 6.25rem 1fr 1fr;
+    }
+
+    #navbar {
+        display: none;
     }
 
     .navbar {
@@ -97,7 +99,7 @@
         align-items: center;
     }
 
-    .buttons > .text-button {
+    .buttons>.text-button {
         margin-top: 1rem;
         margin-left: 0rem;
     }
@@ -134,7 +136,7 @@
         margin-bottom: 2rem;
     }
 
-    .sec-21-flex div{
+    .sec-21-flex div {
         width: 47.5%;
         margin-top: 2rem;
     }
@@ -148,14 +150,14 @@
         width: 12.5rem;
     }
 
-    .box h2{
+    .box h2 {
         text-align: left;
     }
 
     .business {
         padding: 2.5rem;
     }
-    
+
     .business-cont {
         flex-direction: column;
     }
@@ -172,11 +174,9 @@
 
     .sec-3-flex h1 {
         width: 100%;
-    }    
+    }
 
     .sec-3-flex img {
         width: 12.5rem;
     }
-
-
 }
